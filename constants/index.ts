@@ -10,7 +10,7 @@ export const resumes: Resume[] = [
             ATS: {
                 score: 90,
                 tips: [],
-            },
+            }, 
             toneAndStyle: {
                 score: 90,
                 tips: [],
