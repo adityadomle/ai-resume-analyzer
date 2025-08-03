@@ -6,7 +6,7 @@ interface AccordionContextType {
     activeItems: string[];
     toggleItem: (id: string) => void;
     isItemActive: (id: string) => boolean;
-}
+}  
 
 const AccordionContext = createContext<AccordionContextType | undefined>(
     undefined
