@@ -11,7 +11,7 @@ interface Feedback {
     overallScore: number;
     ATS: {
         score: number;
-        tips: {
+        tips: { 
             type: "good" | "improve";
             tip: string;
         }[];
