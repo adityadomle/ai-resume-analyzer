@@ -13,7 +13,7 @@ const ScoreBadge = ({ score }: { score: number }) => {
               "flex flex-row gap-1 items-center px-2 py-0.5 rounded-[96px]",
               score > 69
                   ? "bg-badge-green"
-                  : score > 39
+                  : score > 39 
                       ? "bg-badge-yellow"
                       : "bg-badge-red"
           )}

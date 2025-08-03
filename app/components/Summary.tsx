@@ -19,7 +19,7 @@ const Category = ({ title, score }: { title: string, score: number }) => {
             </div>
         </div>
     )
-}
+} 
 
 const Summary = ({ feedback }: { feedback: Feedback }) => {
     return (

@@ -18,7 +18,7 @@ const ScoreGauge = ({ score = 75 }: { score: number }) => {
                 <svg viewBox="0 0 100 50" className="w-full h-full">
                     <defs>
                         <linearGradient
-                            id="gaugeGradient"
+                            id="gaugeGradient" 
                             x1="0%"
                             y1="0%"
                             x2="100%"

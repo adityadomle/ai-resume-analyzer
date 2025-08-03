@@ -42,6 +42,6 @@ const ResumeCard = ({ resume: { id, companyName, jobTitle, feedback, imagePath }
                 </div>
                 )}
         </Link>
-    )
+    ) 
 }
 export default ResumeCard

@@ -68,7 +68,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   } else if (import.meta.env.DEV && error && error instanceof Error) {
     details = error.message;
     stack = error.stack;
-  }
+  } 
 
   return (
     <main className="pt-16 p-4 container mx-auto">
